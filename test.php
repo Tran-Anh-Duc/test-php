@@ -32,6 +32,7 @@ class greeting
 }
 
 new greeting();
+echo "helo world";
 
 ?>
 
