@@ -10,28 +10,28 @@
 <body>
 <?php
 
-//function demo(){
-//   static $x = 5 ;
-//    echo $x . "<br>";
-//    $x++;
-//}
-//demo();
-//demo();
-//demo();
-//class greeting
-//{
-//    public static function welcome()
-//    {
-//        echo "hello World";
-//    }
-//
-//    public function __construct()
-//    {
-//        self::welcome();
-//    }
-//}
-//
-//new greeting();
+function demo(){
+   static $x = 5 ;
+    echo $x . "<br>";
+    $x++;
+}
+demo();
+demo();
+demo();
+class greeting
+{
+    public static function welcome()
+    {
+        echo "hello World";
+    }
+
+    public function __construct()
+    {
+        self::welcome();
+    }
+}
+
+new greeting();
 
 ?>
 
