@@ -10,30 +10,55 @@
 <body>
 <?php
 
-function demo(){
-   static $x = 5 ;
-    echo $x . "<br>";
-    $x++;
-}
-demo();
-demo();
-demo();
-class greeting
-{
-    public static function welcome()
-    {
-        echo "hello World";
-    }
+//function demo(){
+//   static $x = 5 ;
+//    echo $x . "<br>";
+//    $x++;
+//}
+//demo();
+//demo();
+//demo();
+//class greeting
+//{
+//    public static function welcome()
+//    {
+//        echo "hello World";
+//    }
+//
+//    public function __construct()
+//    {
+//        self::welcome();
+//    }
+//}
+//
+//new greeting();
 
-    public function __construct()
-    {
-        self::welcome();
-    }
-}
+//$t = date("H");
+//
+//if ($t < "20") {
+//    echo "Have a good day!";
+//}
+//$names = array('Anh', 'Hùng', 'Linh', 'Thanh');
 
-new greeting();
+//for($i = 0; $i < count($names); $i++){
+//    echo $names[$i] . ' ';
+//}
 
+//$i = 0;
+//while($i <count($names)){
+//    echo $names[$i].' ';
+//    $i++;
+//}
 
+$x;
+
+if($x)
+
+    echo"hi";
+
+else
+
+    echo"how are u";
 ?>
 
 
