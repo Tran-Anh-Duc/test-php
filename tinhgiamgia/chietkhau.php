@@ -24,7 +24,7 @@
             <td><input type="text" name="percent"></td>
         </tr>
         <tr>
-            <td><button type="submit">Tính chiết khấu</button></td>
+            <td><button type="submit" value="">Tính chiết khấu</button></td>
         </tr>
     </table>
 </form>
